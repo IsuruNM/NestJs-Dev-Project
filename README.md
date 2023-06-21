@@ -34,7 +34,16 @@ To get started with this project, follow these steps:
 
 5. Open your browser and navigate to http://localhost:3000 to see the running application.
 
-6. install prisma
+6. Use Docker
+   check installed docker version - docker --version
+
+   use docker compose - allow spawn and destroy docker container
+   Run - docker compose up dev-db -d (dev-db: database name, -d: background run)
+   check status - docker ps
+
+7. install prisma
+   install Prisma - yarn add -D prisma
+   install client library - yarn add @prisma/client
 
 Project Structure
 The project follows a standard NestJS application structure:
