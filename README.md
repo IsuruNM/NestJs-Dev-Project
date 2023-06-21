@@ -41,7 +41,8 @@ To get started with this project, follow these steps:
    Run - docker compose up dev-db -d (dev-db: database name, -d: background run)
    check status - docker ps
 
-7. install prisma
+7. Prisma
+
    install Prisma - yarn add -D prisma
    install client library - yarn add @prisma/client
 
