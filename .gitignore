@@ -1,62 +1,24 @@
-# NestJS Learn Project
+# Ignore node_modules directory
+node_modules/
 
-This project is a learning repository for NestJS, a progressive Node.js framework. It provides a starting point for building server-side applications using TypeScript.
+# Ignore compiled JavaScript files
+*.js
 
-## Prerequisites
+# Ignore log files
+*.log
 
-Before getting started, ensure that you have the following prerequisites installed:
+# Ignore environment-specific files
+.env
 
-- Node.js (version X.X.X or higher)
-- npm (version X.X.X or higher)
-- Git (version X.X.X or higher)
+# Ignore build output directories
+dist/
+build/
+out/
 
-## Getting Started
+# Ignore editor-specific files
+.vscode/
+.idea/
 
-To get started with this project, follow these steps:
-
-1. Clone the repository to your local machine:
-
-   ```bash
-   git clone https://github.com/IsuruNM/nestjs-project.git
-
-2. Change into the project's directory:
-   cd nestjs-learn-project
-
-3. Install the dependencies:
-   yarn install
-
-4. Start the development server:
-   yarn start:dev
-   
-   This command will start the server and automatically restart it whenever you make changes to the source code.
-
-5. Open your browser and navigate to http://localhost:3000 to see the running application.
-
-
-
-Project Structure
-The project follows a standard NestJS application structure:
-
-nestjs-learn-project/
-  ├── src/
-  │   ├── main.ts
-  │   ├── app.module.ts
-  │   ├── app.controller.ts
-  │   └── app.service.ts
-  ├── test/
-  │   └── app.e2e-spec.ts
-  ├── package.json
-  ├── tsconfig.json
-  ├── .gitignore
-  └── README.md
-
-
-> src/main.ts: The entry file of the application.
-> src/app.module.ts: The root module that imports and configures all other modules.
-> src/app.controller.ts: An example controller with sample routes.
-> src/app.service.ts: An example service that the controller uses.
-> test/app.e2e-spec.ts: An end-to-end testing file.
-> package.json: The NPM package configuration file.
-> tsconfig.json: The TypeScript compiler configuration file.
-> .gitignore: Specifies intentionally untracked files to ignore by Git.
-Feel free to explore and modify the source code files to learn more about NestJS.
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
