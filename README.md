@@ -6,9 +6,9 @@ This project is a learning repository for NestJS, a progressive Node.js framewor
 
 Before getting started, ensure that you have the following prerequisites installed:
 
-- Node.js (version X.X.X or higher)
-- npm (version X.X.X or higher)
-- Git (version X.X.X or higher)
+- Node.js (version 19.9.0 or higher)
+- npm (version 9.6.3 or higher)
+- yarn (version 1.22.19 or higher)
 
 ## Getting Started
 
