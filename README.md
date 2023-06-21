@@ -43,8 +43,16 @@ To get started with this project, follow these steps:
 
 7. Prisma
 
-   install Prisma - yarn add -D prisma
-   install client library - yarn add @prisma/client
+   yarn add -D prisma - This command installs the Prisma CLI as a development dependency
+   yarn add @prisma/client - This command installs the Prisma client library as a regular dependency in your project.
+
+   npx prisma init - this will generate .env file. also create prisma folder
+   npx prisma migrate dev - for create models
+   npx prisma generate - create typescript types for schema
+   npx prisma studio - load prisma client
+
+8. config
+   yarn add @nestjs/config - used in NestJS applications to provide a convenient way to manage configuration variables and settings
 
 Project Structure
 The project follows a standard NestJS application structure:
