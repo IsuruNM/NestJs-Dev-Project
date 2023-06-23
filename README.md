@@ -54,6 +54,12 @@ To get started with this project, follow these steps:
 8. config
    yarn add @nestjs/config - used in NestJS applications to provide a convenient way to manage configuration variables and settings
 
+9. Passport and jwt
+   yarn add @nestjs/passport passport
+   yarn add @nestjs/jwt passport-jwt
+
+   yarn add -D @types/passport-jwt
+
 Project Structure
 The project follows a standard NestJS application structure:
 
